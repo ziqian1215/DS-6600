@@ -3,6 +3,7 @@ dash
 ipykernel
 ipywidgets
 jupyter
+jupyterlab
 matplotlib
 mysql-connector-python
 numpy
