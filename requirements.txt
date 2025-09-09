@@ -20,3 +20,4 @@ sidetable
 sqlalchemy
 wget
 wquantiles
+python-dotenv
