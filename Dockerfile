@@ -6,11 +6,8 @@ COPY requirements.txt requirements.txt
 
 RUN pip install -r requirements.txt
 
-ENV secretpassword=whereismysecret
-
 WORKDIR /DS-6600
 
 EXPOSE 8888
 
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root"]
-
