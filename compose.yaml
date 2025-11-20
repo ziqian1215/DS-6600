@@ -1,10 +1,10 @@
 services:
-  jupyterlab:
-    image: jupyterdocker
+  dashboard:
+    image: dashboard
     env_file:
       - .env
     ports:
-      - "8888:8888"
+      - "8050:8050"
     volumes:
       - ./:/DS-6600
     networks:
